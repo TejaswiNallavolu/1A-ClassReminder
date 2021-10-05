@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    border-radius: 5px;
+}
+
+.imgcontainer img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    
+}
+.imgcontainer{
+    text-align: center;
+}
+.main{
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+}
+input{
+    padding: 10px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+}
+#submit{
+    padding: 10px;
+    width: 100px;
+    background: #29a810;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.forgot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;    
+    margin: auto;
+    padding: 10px;
+}
+.cancelbtn{
+    padding: 10px;
+    width: 100px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
